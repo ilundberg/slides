@@ -72,7 +72,7 @@
 \node[anchor = east] at (1,0) {\includegraphics[width = .5\textwidth]{figures/ff_design_full}};
 \node[anchor = north west,align = left] (ian) at (-1,.3) {\bgreen{Ian Lundberg}};
 \node[anchor = north west, font = \footnotesize, align = left] at (ian.south west) {Department of Sociology\\Office of Population Research\\Princeton University\\\\ilundberg at princeton dot edu};
-\node[align=center, anchor = north] at (0,-.6) {10 April 2019\\Annual Meeting of the Population Association of America\\Slides posted: \blue{\url{https://github.com/ilundberg/slides}}};
+\node[align=center, anchor = north] at (0,-.6) {10 April 2019\\Annual Meeting of the Population Association of America\\Slides posted: \blue{\href{https://github.com/ilundberg/slides}{github.com/ilundberg/slides}}};
 \end{tikzpicture}
 \end{frame}
 
@@ -239,7 +239,7 @@ In the past 12 months, were you evicted from your home or apartment for not payi
 \begin{tikzpicture}
 \node at (0,0) {\includegraphics[width = \textwidth]{figures/RaceIncomeGroups_largeFont}};
 \onslide<2>{
-\node[fill = white, draw = blue, line width = 2.5pt, rounded corners, align=center] (oversample) at (4.2,-1.2) {Unmarried\\oversample\\aids precise\\estimates.};
+\node[fill = white, draw = blue, line width = 2.5pt, rounded corners, align=center] (oversample) at (4.2,-1.2) {Unmarried\\oversample\\aids\\ precision};
 \draw[->, line width = 2pt, blue] (oversample) to[bend right] (4, 2.5);
 \draw[->, line width = 2pt, blue] (3.13,-1) to[bend right] (2.5, -.7);
 \draw[->, line width = 2pt, blue] (3.13,-1.7) to[bend left] (2.1, -1.7);
@@ -363,7 +363,6 @@ Does \bblue{public housing} protect\\low-income families from \bblue{eviction}?\
 
 \vskip .2cm
 \bblue{Weights} are highly unequal.\\
-%\onslide<4->{25\% of sample gets 84\% of weight (mother baseline).}
 \begin{center}
 \begin{tikzpicture}
 \onslide<2->{
@@ -376,7 +375,7 @@ Does \bblue{public housing} protect\\low-income families from \bblue{eviction}?\
 \node<4> at (0,0) {\includegraphics[width = .5\textwidth]{figures/weight_issue_2}};
 \node<5-> at (0,0) {\includegraphics[width = .5\textwidth]{figures/weight_issue_3}};
 \onslide<6>{
-\node[align=center, font = \large] at (-5,-2) {\bgreen{84\%} of weight rests\\on \bgreen{25 \%} of sample};
+\node[align=center, font = \large] at (-5,-2) {\bgreen{84 \%} of weight rests\\on \bgreen{25 \%} of sample};
 \draw[->, line width = 2pt, color = olive] (-6.5, -1.5) to[out = 90, in = 180] (-2.7, 1.5);
 \draw[->, line width = 2pt, color = olive] (-5.7, -2.5) to[out = 270, in = 210] (-1, -2.5);
 }
@@ -455,12 +454,19 @@ There are lots of variables no one is studying.\\
 \end{tikzpicture}
 \end{frame}
 
-\begin{frame}{References}
-\footnotesize
-Lundberg, Ian, and Louis Donnelly. 2019. \href{https://link.springer.com/article/10.1007/s13524-018-0735-y}{\blue{``A research note on the prevalence of housing eviction among children born in U.S. cities.''}} \emph{Demography} 56(1):391-404. [\href{https://scholar.princeton.edu/sites/default/files/ilundberg/files/lundbergdonnelly2019_accepted.pdf}{\blue{accepted manuscript}}][\href{https://doi.org/10.7910/DVN/BVWFG1}{\blue{replication package}}]. \vskip .5cm
+\begin{frame}
+\begin{Large}\textbf{Slides}: \blue{\href{https://github.com/ilundberg/slides}{github.com/ilundberg/slides}}\end{Large} \vskip .5cm
+\textbf{References} \vskip .1cm
+\begin{footnotesize}
+Lundberg, Ian, and Louis Donnelly. 2019. \href{https://link.springer.com/article/10.1007/s13524-018-0735-y}{\blue{``A research note on the prevalence of housing eviction among children born in U.S. cities.''}} \emph{Demography} 56(1):391-404. [\href{https://scholar.princeton.edu/sites/default/files/ilundberg/files/lundbergdonnelly2019_accepted.pdf}{\blue{accepted manuscript}}][\href{https://doi.org/10.7910/DVN/BVWFG1}{\blue{replication package}}]. \vskip .3cm
 Lundberg, Ian, Sarah L. Gold, Louis Donnelly, Jeanne Brooks-Gunn, and Sara S. McLanahan. \href{http://paa2019.populationassociation.org/uploads/192630}{\blue{``Government assistance protects low-income families from eviction and rent non-payment.''}} To be presented at the 2019 Annual Meeting of the Population Association of America.
-\vskip .5cm
-Salganik, Matthew J., Ian Lundberg, Alex Kindel, Sara S. McLanahan, and over 100 additional authors. ``Measuring the predictability of life outcomes with a scientific mass collaboration.'' Manuscript in progress. You can read more \href{http://www.fragilefamilieschallenge.org}{\blue{here}} or watch a video overview \href{https://www.youtube.com/playlist?list=PLbavk6eDjgUSghfps3elbgD-uV8VAK4QH}{\blue{here}}.
+\vskip .3cm
+Salganik, Matthew J., Ian Lundberg, Alex Kindel, Sara S. McLanahan, and over 100 additional authors. ``Measuring the predictability of life outcomes with a scientific mass collaboration.'' Manuscript in progress.\\Read more \href{http://www.fragilefamilieschallenge.org}{\blue{here}} or watch a video overview \href{https://www.youtube.com/playlist?list=PLbavk6eDjgUSghfps3elbgD-uV8VAK4QH}{\blue{here}}.
+\end{footnotesize}\vskip .4cm
+\begin{minipage}{\textwidth}
+\tiny
+Research reported in this presentation was supported by The Eunice Kennedy Shriver National Institute of Child Health \& Human Development of the National Institutes of Health under Award Number P2CHD047879, R01HD36916, R01HD39135, and R01HD40421, as well as a consortium of private foundations. For the Fragile Families Challenge, we are especially grateful to the Russell Sage Foundation. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.
+\end{minipage}
 \end{frame}
 
 
