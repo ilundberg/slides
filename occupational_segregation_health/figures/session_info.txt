@@ -1,0 +1,27 @@
+[1] "Date and time of code run:"
+[1] "2021-06-15 09:57:43 PDT"
+[1] "R VERSION:"
+         variable                        value
+1        platform       aarch64-apple-darwin20
+2            arch                      aarch64
+3              os                     darwin20
+4          system            aarch64, darwin20
+5          status                             
+6           major                            4
+7           minor                          1.0
+8            year                         2021
+9           month                           05
+10            day                           18
+11        svn.rev                        80317
+12       language                            R
+13 version.string R version 4.1.0 (2021-05-18)
+14       nickname              Camp Pontanezen
+[1] "PACKAGE VERSIONS:"
+[1] "tidyverse 1.3.1"
+[1] "labelled 2.8.0"
+[1] "reshape2 1.4.4"
+[1] "ipumsr 0.4.5"
+[1] "mgcv 1.8.35"
+[1] "foreach 1.5.1"
+[1] "doParallel 1.0.16"
+[1] "ggrepel 0.9.1"

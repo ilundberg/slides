@@ -1,0 +1,8 @@
+Use of data from IPUMS CPS is subject to conditions including that users should
+cite the data appropriately. Use command `ipums_conditions()` for more details.
+Use of data from IPUMS CPS is subject to conditions including that users should
+cite the data appropriately. Use command `ipums_conditions()` for more details.
+Use of data from IPUMS CPS is subject to conditions including that users should
+cite the data appropriately. Use command `ipums_conditions()` for more details.
+Use of data from IPUMS CPS is subject to conditions including that users should
+cite the data appropriately. Use command `ipums_conditions()` for more details.
