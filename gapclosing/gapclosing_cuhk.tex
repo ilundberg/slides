@@ -113,6 +113,57 @@
 \end{tikzpicture}
 \end{frame}
 
+\begin{frame}
+
+$$\begin{aligned}
+Y = \beta_0 
+&+ \beta_1(\text{Income}) \\
+&+ \beta_2(\text{Race} = \text{Hispanic}) \\
+&+ \beta_3(\text{Race} = \text{Non-Hispanic Black}) \\
+&+ \beta_4(\text{Race} = \text{Other Non-Hispanic}) \\
+&+ \beta_5(\text{College Degree}) \\
+&+ \beta_6(\text{Two-parent household}) \\
+&+ \epsilon
+\end{aligned}$$
+
+\end{frame}
+
+\begin{frame}
+\begin{tikzpicture}[x = \textwidth, y = \textheight]
+\node at (0,0) {};
+\node at (1,1) {};
+%\node[anchor = north west, align = left] at (0,.9) {Good quantitative research begins with a question:};
+\node<1->[anchor = north, align = left, font = \large] at (.5,.8) {\bblue{What is your estimand?}};
+\draw<2->[->, line width = 2pt, blue] (.615,.73) to[out = 270, in = 180] (.7,.65);
+\node<2->[anchor = north east, align = right, font = \small] at (1,.7) {The \bgray{purpose} of the\\statistical analysis};
+\node<2->[anchor = north east, align = right, font = \small] at (1,.6) {stated \bgray{outside}\\of the model};
+\node<3->[circle, fill = lightgray, draw = lightgray, font = \footnotesize, inner sep = 8pt] (point1) at (.18,.6) {};
+\node<3>[font = \scriptsize] at (point1) {$Y_i$};
+\node<3->[gray, font = \footnotesize, align = center, anchor = north] (usqNote) at (point1.south) {A \bgray{unit-specific}\\\bgray{quantity}};
+\node<4->[circle, fill = lightgray, draw = lightgray, font = \footnotesize, inner sep = 8pt] (point2) at (.33,.55) {};
+\node<4->[circle, fill = lightgray, draw = lightgray, font = \footnotesize, inner sep = 8pt] (point3) at (.25,.4) {};
+\node<4->[circle, fill = lightgray, draw = lightgray, font = \footnotesize, inner sep = 8pt] (point4) at (.4,.43) {};
+\node<4->[circle, fill = lightgray, draw = lightgray, font = \footnotesize, inner sep = 8pt] (point5) at (.12,.42) {};
+\node<4->[circle, fill = lightgray, draw = lightgray, font = \footnotesize, inner sep = 8pt] (point6) at (.45,.6) {};
+\draw<4->[line width = 2pt, gray, rounded corners] (.05,.35) rectangle (.5,.65);
+\node<4->[gray, font = \footnotesize, align = left, anchor = south west] at (.5,.35) {Aggregated over a\\\bgray{target population}};
+\node<4>[font = \scriptsize] at (point1) {$Y_1$};
+\node<4>[font = \scriptsize] at (point2) {$Y_2$};
+\node<4>[font = \scriptsize] at (point3) {$Y_5$};
+\node<4>[font = \scriptsize] at (point4) {$Y_6$};
+\node<4>[font = \scriptsize] at (point5) {$Y_4$};
+\node<4>[font = \scriptsize] at (point6) {$Y_3$};
+\node<5->[font = \scriptsize] at (point1) {$Y_1(t)$};
+\node<5->[font = \scriptsize] at (point2) {$Y_2(t)$};
+\node<5->[font = \scriptsize] at (point3) {$Y_5(t)$};
+\node<5->[font = \scriptsize] at (point4) {$Y_6(t)$};
+\node<5->[font = \scriptsize] at (point5) {$Y_4(t)$};
+\node<5->[font = \scriptsize] at (point6) {$Y_3(t)$};
+%\node<5>[anchor = north east,align = right, font = \footnotesize, gray] at (1,.25) {Example from\\{\href{https://doi.org/10.1002/pam.22234}{Lundberg et al.}}\\{\href{https://doi.org/10.1002/pam.22234}{JPAM 2021}}};
+\node<1->[align = left, font = \footnotesize, anchor = north west, gray] at (0,.25) {Lundberg, Johnson, Stewart\\\textbf{What is Your Estimand?}\\\emph{American Sociological Review} 2021};
+\end{tikzpicture}
+\end{frame}
+
 % Introduce gap-closing
 \begin{frame}
 \begin{tikzpicture}[x = \textwidth, y = \textheight]
